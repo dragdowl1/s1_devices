@@ -1,0 +1,15 @@
+INFO:     Will watch for changes in these directories: ['/content']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2819] using StatReload
+INFO:     Started server process [2825]
+INFO:     Waiting for application startup.
+YOLOv5 🚀 2023-3-6 Python-3.9.16 torch-1.13.1+cu116 CPU
+
+Fusing layers... 
+Model summary: 157 layers, 7034398 parameters, 0 gradients
+Adding AutoShape... 
+INFO:     Application startup complete.
+[31m[1mrequirements:[0m /content/yolov5/requirements.txt not found, check failed.
+INFO:     127.0.0.1:34650 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "POST /detect_devices HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60856 - "POST /detect_devices HTTP/1.1" 200 OK
