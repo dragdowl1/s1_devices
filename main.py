@@ -62,9 +62,7 @@ async def image_detect(request: Request,
             im = image.convert('RGB') 
             im = np.array(im) 
             img = im[:, :, ::-1].copy()
-            col, row = (640, 640)
-            resized_image = cv2.resize(img, (col, row), interpolation = cv2.INTER_AREA)
-            out = model(resized_image, size=640)
+            out = model(img, size=640)
             json_results = [
                 [
                     {
